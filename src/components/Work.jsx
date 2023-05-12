@@ -1,6 +1,9 @@
 import React from "react";
 import Rawlab from "../assets/Rawlab.jpeg";
 import Uber from "../assets/uber1.avif";
+import Viral from "../assets/viral.png";
+import Raw from "../assets/raw.png";
+import viz from "../assets/viz.png";
 
 const Work = () => {
   return (
@@ -17,7 +20,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Rawlab})` }}
+            style={{ backgroundImage: `url(${Raw})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -40,7 +43,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Uber})` }}
+            style={{ backgroundImage: `url(${viz})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
