@@ -19,7 +19,7 @@ const socialLinks = [
 function Footer() {
   return (
     <footer className="p-4 min-w-full bg-[#0a192f]">
-      <div className="flex flex-row justify-center space-x-4  px-4">
+      <div className="flex flex-row justify-center space-x-8  px-4">
         {socialLinks.map((item, index) => (
           <p key={index}>
             <a href={item.url} className=" hover:border-pink-600">
