@@ -1,7 +1,7 @@
 import React from "react";
-import Raw from "../assets/raw.png";
-import viz from "../assets/viz.png";
-import FaceParsing from "../assets/FP2.png";
+import Raw from "../assets/raw.avif";
+import viz from "../assets/viz.avif";
+import FaceParsing from "../assets/FP2.avif";
 
 const Work = () => {
   return (

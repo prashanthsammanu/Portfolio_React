@@ -33,7 +33,7 @@ function Footer() {
       </div>
 
       <div className="p-4 text-gray-300 text-center">
-        © {new Date().getFullYear()} Copyright Prashanth Sammanu
+        Prashanth Sammanu © {new Date().getFullYear()}
         {/* <a className="" href="">
           {" "}
           Prashanth Sammanu
